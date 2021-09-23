@@ -17,68 +17,67 @@ HTTP Requests and Responses
 Answer the following questions about the HTTP request and response process.
 
 
-What type of architecture does the HTTP request and response process occur in?
+1. What type of architecture does the HTTP request and response process occur in?
 
-### Answer
+### Answer 
 
 - Client server architecture. Requests are made from client to server then back to client.
 
-What are the different parts of an HTTP request?
+2. What are the different parts of an HTTP request?
 
-### Answer 2
+### Answer 
 
 - Request Line, Request Headers, Request Body
 
+3. Which part of an HTTP request is optional?
 
-Which part of an HTTP request is optional?
-
-### Answer 3
+### Answer 
 
 - Request Body
 
 
-What are the three parts of an HTTP response?
+4. What are the three parts of an HTTP response?
 
-### Answer 4
+### Answer 
 
 - Headers, Status Line, Body
 
-Which number class of status codes represents errors?
+5. Which number class of status codes represents errors?
 
-### Answer 5
+### Answer 
 
 - [400..499] :: Client errors && [500..599] :: Server errors
 
-What are the two most common request methods that a security professional will encounter?
+6. What are the two most common request methods that a security professional will encounter?
 
-### Answer 6
+### Answer 
 
 - Post, & get.
 
-Which type of HTTP request method is used for sending data?
+7. Which type of HTTP request method is used for sending data?
 
-### Answer 7
+### Answer 
 
 - POST Request
 
-Which part of an HTTP request contains the data being sent to the server?
+8. Which part of an HTTP request contains the data being sent to the server?
 
-### Answer 8
+### Answer 
 
 - Request body
 
 
-In which part of an HTTP response does the browser receive the web code to generate and style a web page?
+9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 
-### Answer 9
+### Answer 
 
 - Response body
 
 ### Using curl
 
-What are the advantages of using curl over the browser?
+10. What are the advantages of using curl over the browser?
 
-### Answer 10
+### Answer 
 
 - manage the  HTTP Requests / Responses in a Repeatable , Programmatic way
 - also quickly test HTTP HTTP Requests in away that can be automated
@@ -86,49 +85,50 @@ What are the advantages of using curl over the browser?
 - And it support numerous protocols even if a UI is not present
 
 
-Which curl option is used to change the request method?
+11. Which curl option is used to change the request method?
 
-### Answer 11
+### Answer 
 
 - Curl -X 
 
-Which curl option is used to set request headers?
+12. Which curl option is used to set request headers?
 
-### Answer 12
+### Answer 
 
 - Curl -H 
 
-Which curl option is used to view the response header?
+13. Which curl option is used to view the response header?
 
-### Answer 13
+### Answer 
 
 - Curl -i
 
-Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
+14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
-### Answer 14
+### Answer 
 
 - Get 
 
 ### Sessions and Cookies
+
 Recall that HTTP servers need to be able to recognize clients from one another. They do this through sessions and cookies.
 
-Which response header sends a cookie to the client?
+15. Which response header sends a cookie to the client?
 HTTP/1.1 200 OK
 Content-type: text/html
 Set-Cookie: cart=Bob
 
-### Answer 15
+### Answer 
 
 - Set-Cookie sends cookie to client
 
 
-Which request header will continue the client's session?
+16. Which request header will continue the client's session?
 GET /cart HTTP/1.1
 Host: www.example.org
 Cookie: cart=Bob
 
-### Answer 16
+### Answer 
 
 - Cookie will save/continue the client's
 
@@ -147,28 +147,28 @@ User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/5
 
 username=Barbara&password=password
 
-What is the request method?
+17. What is the request method?
 
-### Answer 17
+### Answer 
 
 - POST
 
-Which header expresses the client's preference for an encrypted response?
+18. Which header expresses the client's preference for an encrypted response?
 
-### Answer 18
+### Answer 
 
 - Upgrade-insecure-requests 1
 
-Does the request have a user session associated with it?
+19. Does the request have a user session associated with it?
 
-### Answer 19
+### Answer 
 
 - The Session is not restablished yet, so No
 
 
-What kind of data is being sent from this request body?
+20. What kind of data is being sent from this request body?
 
-### Answer 20
+### Answer 
 
 - Login credentials
 
@@ -189,91 +189,91 @@ X-XSS-Protection: 1; mode=block
 [page content]
 
 
-What is the response status code?
+21. What is the response status code?
 
-### Answer 21
+### Answer 
 
 - 200.
 
 
-What web server is handling this HTTP response?
+22. What web server is handling this HTTP response?
 
-### Answer 22
+### Answer 
 
 - Apache webserver
 
 
-Does this response have a user session associated to it?
+23. Does this response have a user session associated to it?
 
-#### Answer 23
+#### Answer 
 
 - Yes SessionID=5
 
-What kind of content is likely to be in the [page content] response body?
+24. What kind of content is likely to be in the [page content] response body?
 
-### Answer 24
+### Answer 
 
 - Detail of the page configuration
 
 
-If your class covered security headers, what security request headers have been included?
+25. If your class covered security headers, what security request headers have been included?
 
-### Answer 25
+### Answer 
 
 - Strict transport security, or XSS protection.
 
 ### Monoliths and Microservices
 
-What are the individual components of microservices called?
+26. What are the individual components of microservices called?
 
-### Answer 26
+### Answer 
 
 - Services
 
-What is a service that writes to a database and communicates to other services?
+27. What is a service that writes to a database and communicates to other services?
 
-### Answer 27
+### Answer 
 
 - APIs
 
-What type of underlying technology allows for microservices to become scalable and have redundancy?
+28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
-### Answer 28
+### Answer 
 
 - Load Plancer OR Containers
 
 ### Deploying and Testing a Container Set
 
-What tool can be used to deploy multiple containers at once?
+29. What tool can be used to deploy multiple containers at once?
 
-### Answer 29
+### Answer 
 
 - Docker
 
-What kind of file format is required for us to deploy a container set?
+30. What kind of file format is required for us to deploy a container set?
 
-### Answer 30
+### Answer 
 
 - .yml Yaml format
 
 ### Databases
 
 
-Which type of SQL query would we use to see all of the information within a table called customers?
+31. Which type of SQL query would we use to see all of the information within a table called customers?
 
-### Answer 31
+### Answer 
 
 - Select Column & From Customers.
 
-Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
+32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
-### Answer 32
+### Answer 
 
 - INSERT INTO [columns] VALUES [values]
 
-Why would we never run DELETE FROM <table-name>; by itself?
+33. Why would we never run DELETE FROM <table-name>; by itself?
 
-### Answer 33
+### Answer 
 
 - It will delete the entire table there is no select statement.
 
