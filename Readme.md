@@ -1,12 +1,13 @@
- Web Development
+ ### Web Development
 
-Overview
+## Overview
+
 In this homework, we will review the many of the concepts and tools covered in the Web Development unit. If needed, refer to the  reference sheets provided to you.
 
-[`HTTP Reference Shee.](.Web-Development//HTTP_Reference)
-[`curl Reference Sheet.](./Web-Development/cURL_Reference)
-[`Docker compose.](./Web-Development/docker-compose)
-[`Bob Session.](./Web-Development/Bob_Session)
+- [`HTTP Reference Shee.](.Web-Development//HTTP_Reference)
+- [`curl Reference Sheet.](./Web-Development/cURL_Reference)
+- [`Docker compose.](./Web-Development/docker-compose)
+- [`Bob Session.](./Web-Development/Bob_Session)
 
 ## Questions
 
